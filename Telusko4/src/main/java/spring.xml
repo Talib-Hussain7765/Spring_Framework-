@@ -14,7 +14,7 @@
 <!-- <bean id="vehicle" class="com.navin.Telusko.Bike"></bean> -->
 
 <bean id="tyre" class="com.navin.Telusko.Tyre">
-<property name="brand" value="Ceat"></property>
+<property name="brand" value="Ceat"></property>   <!--   setter injectione = this is using setter to initialized the instance var 'brand' -->
 </bean>
 
-</beans>
+</beans
