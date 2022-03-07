@@ -16,7 +16,9 @@
 <bean id="tyre" class="com.navin.Telusko.Tyre">
 <!-- <property name="brand" value="Ceat"></property> -->
 
-<constructor-arg value="MRF"></constructor-arg>
+   <constructor-arg type ="java.lang.String" value="MRF"></constructor-arg>
+   <constructor-arg type ="int" value="5"></constructor-arg>
+   
 </bean>
 
 </beans>
